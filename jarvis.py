@@ -2,9 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
 from openai import OpenAI
 
-# 1. ENTER YOUR KEYS HERE
-NOVITA_API_KEY = "sk_IZLCmNayhckYA8CnAIGhZvEDUd8Uf3swn2nEnBGmBw4"
-TELEGRAM_BOT_TOKEN = "8131455051:AAH8YU8CgL9QF8OoBs6xHrxbfxWRnPm9kRw"
+
 
 # 2. CONNECT TO NOVITA AI
 client = OpenAI(
