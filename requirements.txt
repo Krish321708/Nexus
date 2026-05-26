@@ -1,0 +1,11 @@
+# Messaging
+python-telegram-bot>=20.0
+
+# AI/LLM Integration
+novita-python
+
+# Environment Management
+python-dotenv
+
+# Utilities
+requests
